@@ -1,0 +1,54 @@
+*{
+  user-select: none;
+}
+body{
+  background: url(./clima.webp)
+  no-repeat center fixed;
+ -webkit-background-size: cover ;
+ -moz-background-size: cover ;
+ -o-backbroung-size: cover;
+  background-size: cover;
+}
+#ciudad{
+  cursor: pointer;
+padding: 8px 1px;
+display: inline-block ;
+justify-content: center;
+align-items: center;
+border: solid 2px;
+border-radius: 5px;
+
+}
+.consultas{
+  
+  padding: 5px 35px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:rgb(231, 105, 31) ;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  
+}
+.consultas:hover{background-color: yellow;}
+
+.consultas:active{
+  background-color: rgb(109, 214, 255);
+  box-shadow: 0 5px #999;
+  transform:translateY(5px);
+}
+#centro{
+  padding-left: 50%;
+  padding-top: 20%;
+  
+}
+#grados{
+  color: rgb(247, 217, 217);
+}
+#letra{
+  color:azure;
+  padding-left: 45%;
+}
